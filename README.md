@@ -11,6 +11,7 @@
 
 - [Overview](#overview)
 - [Usage](#usage)
+- [Credits](#credits)
 
 ## Overview
 
@@ -42,3 +43,6 @@ List of applications which will be installed:
 - docker
 - visual-studio-code
 
+## Credits
+
+- [GMGStudio](https://github.com/GMGStudio)
