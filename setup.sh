@@ -6,7 +6,7 @@ echo -n 'Mail: '
 read -r email
 ssh-keygen -t ed25519 -C "$email"
 
-printf "Please add this public key to GitHub 👻 \n"
+echo "Please add this public key to GitHub 👻"
 cat ~/.ssh/id_ed25519
 open -a Safari https://github.com/settings/keys
 read -pr "Press [Enter] key after this... ⌨️"
