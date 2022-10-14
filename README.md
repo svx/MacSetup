@@ -1,51 +1,44 @@
-# Automate your Mac setup
+<div align="center">
 
-This script helped me to automate my Mac setup and I thought it might be useful for every Mac user out there. 
+# Base template
 
-## First setps
+[Overview](#overview)
+•
+[Usage](#usage)
+</div>
 
-### Run the script
+## Table of contents
 
-Open the terminal, write `sh` and then drag the `setup.sh` file into the terminal and press enter!
+- [Overview](#overview)
+- [Usage](#usage)
 
-## About the script 
+## Overview
 
-### Creates RSA key 🔐
+Basic bash script to automatically install some applications on macOS.
 
-First of all the script will create a new RSA key and opens GitHub for you. 
+The script will:
 
-### Install Xcode stuff 👨‍💻
+- Create a SSH key (`ed25519`)
+- Open a browser window (Safari) pointing to GitHub to add your key
+- Install X-Code
+- Install Homebrew
+- Install a list of applications via Homebrew (see below)
 
-The script will install some Xcode stuff (command line tools) for you. 
+## Usage
 
-### Opens the App Store 🏪
+- Clone the repository
+- Change into the repository
+- Adjust permissions of the script to make it "runnable" (`chmod +x setup.sh`)
 
-There are some apps that I have / want to install from the App Store. (e. g. Final Cut, Xcode)
+## Packages
 
-### Homebrew stuff 🍺
+List of applications which will be installed:
 
-The script will install and update Homebrew for you
+- git
+- github/gh/gh
+- httpie
+- node@16
+- yarn
+- docker
+- visual-studio-code
 
-### Install Git 🦸‍♂️
-
-Installing Git for you and configure your name / mail. 
-
-### Oh My ZSH 😱
-
-Install Oh My ZSH and download powerlevel10k and the following plugins for you: zsh-autosuggestions, zsh-syntax-highlighting
-
-### Install sime nice apps for you 🧙‍♂️
-
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/ITerm2_v3.4_icon.png" height="100"> 
-
-
-If you don't know the apps. Here are the names: Iterm2
-
-### Some Mac settings ⚙️
-
-Change some Mac settings that I prefer...
-
-## Contribute
-
-Feel free to make any pull requests to improve the script. We would appreciate it. 
