@@ -72,6 +72,7 @@ brew install homebrew/cask
 casks=(
   docker
   visual-studio-code
+  github
 )
 
 # Install apps to /Applications
