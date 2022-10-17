@@ -60,6 +60,7 @@ apps=(
   httpie
   node@16
   yarn
+  lychee
 )
 
 # Install apps
