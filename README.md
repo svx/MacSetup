@@ -35,13 +35,14 @@ The script will:
 
 List of applications which will be installed:
 
-- git
-- github/gh/gh
-- httpie
-- node@16
-- yarn
-- docker
-- visual-studio-code
+- Git
+- HTTPie
+- Node (16)
+- Yarn
+- Docker
+- Visual Studio Code
+- GitHub CLI
+- GitHub Desktop
 
 ## Credits
 
